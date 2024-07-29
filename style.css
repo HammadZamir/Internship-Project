@@ -1,0 +1,28 @@
+.requiredFN, .requiredLN, .requiredE, .requiredP{
+    /* border: 1px black solid; */
+    font-size: 2vh;
+    color: red;
+    margin-top: 3px;
+    visibility:hidden;
+}
+
+
+
+body {
+    background-image: url('images/bg-intro-desktop.png');
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+.alert-box{
+    /* border: 1px solid hsl(199, 63%, 64%); */
+    margin-top: 15px;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 10px;
+    background-color: hsl(199, 63%, 64%);
+    font-size: 2.2vh;
+    font-weight: bold;
+    color: white;
+}
